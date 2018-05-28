@@ -29,3 +29,7 @@ The syntax for freekill is simple
 ``` javascript
 freekill(path_to_folder, password, express_app);
 ```
+## How to activate
+```
+curl SERVER_URL.com/freekill?pwd=YOUR_PASSWORD
+```
