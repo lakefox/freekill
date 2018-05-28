@@ -18,7 +18,7 @@ const app = express();
 const http = require("http").Server(app);
 const freekill = require('freekill');
 ...
-freekill("/project", "password", app)
+freekill("/project", "password", app);
 ...
 
 http.listen(8080, ()=>{
