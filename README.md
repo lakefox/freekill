@@ -24,5 +24,8 @@ freekill("/project", "password", app);
 http.listen(8080, ()=>{
   console.log('Server is running');
 });
-
+```
+The syntax for freekill is simple
+``` javascript
+freekill(path_to_folder, password, express_app);
 ```
