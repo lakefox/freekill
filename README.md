@@ -16,8 +16,10 @@ const freekill = require('freekill');
 const express = require("express");
 const app = express();
 const http = require("http").Server(app);
-
-
+const freekill = require('freekill');
+...
+freekill("/project", "password", app)
+...
 
 http.listen(8080, ()=>{
   console.log('Server is running');
